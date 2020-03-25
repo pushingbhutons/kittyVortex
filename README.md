@@ -17,7 +17,7 @@ The [Zeemz Observatory](https://www.zeemz.xyz/land-registry/zeemz-tokens#h.p_6Y2
     number - single, binary, multiple, open cluster, globular cluster
     distance - light years from Zeemz Observatory OR parallax (number)
     
-NOTE: some of these attributes will cause the others to automatically change. For example, if you pick "white dwarf" the color will auto change to "white". Additionally, the quantity of stars minted depend on user inputs. zSTAR certs are logged onto the blockchain by the Pu'Shing Bhu'Tons Star Minter (Flow NFT Minter).
+NOTE: some of these attributes will cause the others to automatically change. For example, if you pick "white dwarf" the color will auto change to "white". Additionally, the quantity of stars minted depend on user inputs. zSTAR certs are logged onto the ~blockchain~ account holders storage by the Pu'Shing Bhu'Tons Star Minter (Flow NFT Minter).
 
 
 #### Actual Steps (In-Dev)
