@@ -1,6 +1,6 @@
 /// zSTAR Attributes
 //
-// name - user input upto 25 char (no specials?)
+// X name - user input upto 25 char (no specials?)
 // color - blue, white, red, orange, yellow
 // type - luminous blue variable (RARE-1 per address, blue, massive 10k-25k temp range, ), giant, supergiant (blue), dwarf (red, white, blue), nova, supernova, nebula
 // magnitudes - brightness scale 1 - 6
@@ -17,10 +17,14 @@
 /// @dev A faucet must have a way to buy/sell/redeem/trade the token
 
 access(all) contract zSTAR {
-    // @dev Prints string as greeting, the string needs to be alterable in future, names change
+
+/// How does the contract differ from the resource? In the tutorial, there's helloworld.cdc, helloworldresource.cdc, and transaction.cdc -- what's different is that 1st is message, 2nd is asset, 3rd is transaction -- does the asset access the message? 
+
+
+    // @dev Prints string as greeting, the string needs to be alterable in future, because names change
     access(all) let greeting: String
     
-    // @dev user needs to be able to change this. Use the HelloWorldResource.cdc to create, change, and destroy resources 
+    // @dev user needs to be able to change the star name. Use the HelloWorldResource.cdc to create, change, and destroy resources 
     // @dev limit characters to 25/30?
     init() {
         self.greeting = "Your Star Name Here"
@@ -29,4 +33,6 @@ access(all) contract zSTAR {
     access(all) fun zstar(): String {
         return self.greeting
     }
+    
+    
 }
