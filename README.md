@@ -33,4 +33,9 @@ NOTE: some of these attributes will cause the others to automatically change. Fo
 [92,955,807 tPBV](https://etherscan.io/token/0x4877d13ac6ccaa947b74792b9bd46afc5e00e8eb)
 
 ### What are Stars good for?
-In addition to giving CryptoKitties access to the Kitty Vortex, cat superpowers are fueled by the stars. Kitties get special skillsets for their combined attributes, use these skills to make kickass equipment for your Zeemz characters. All kitties will be able to trigger the Kitty Vortex, if the address holder has at least 1 zSTAR. But, their powers will be linked to the unique combo of Kitty and Star attriubutes. So, 1 zSTAR will work with any kitty in the wallet and they will all have different powers
+In addition to giving CryptoKitties access to the Kitty Vortex, cat superpowers are fueled by the stars. Kitties get special skillsets for their combined attributes, use these skills to make kickass equipment for your Zeemz characters. All kitties will be able to trigger the Kitty Vortex, if the address holder has at least 1 zSTAR. But, their powers will be linked to the unique combo of Kitty and Star attriubutes. So, 1 zSTAR will work with any kitty in the wallet and they will all have different powers.
+
+### Kitty Vortex in Pandemic Patch on AskCo19 Island
+The Zeemz game was always meant to have a CryptoKitties portal (the Kitty Vortex) powered by the Zeemz Stars (zStars). This also means that we can back some of the ASK & ZMZ tokens with CryptoKitties or Wrapped CryptoKitties. A doctor can set the quest and then choose a CryptoKitty as the end quest reward. 
+
+NOTE: The Flow team and CryptoKitties community is awesome and receptive to helping out with questions about the smart contracts, JS SDKs, or anything else to bring the AskCo19 Island use case to life. Flow dev is working on Cadence as a resource oriented blockchain language.
