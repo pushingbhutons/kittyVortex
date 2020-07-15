@@ -1,5 +1,5 @@
 # Zeemz Portal: Kitty Vortex
-Zeemz Portal: Kitty Vortex written in Cadence for Flow
+Zeemz Portal: Kitty Vortex 
 
 ## What is the Kitty Vortex?
 The Kitty Vortex is one of those Cat Secrets that all cat owners understand as inexplicable cat occurences. In other words, the Kitty Vortex is the magic behind how your cat got in that crazy ass space. 
@@ -29,7 +29,7 @@ NOTE: some of these attributes will cause the others to automatically change. Fo
 4. ZAL dashboard - choose a kitty and a star to see their combined attributes, mix and match at will, try different ck-zstar combinations in the Zeemz Adventures. (Features: give ck, pbvstar, zeemz balances, transfer/gift star(s), opensea integration?, popup intro to kitties and stars, ck gear, kitty levels, dna unlocks, gem/item crafting)
 
 #### Ethereum Smart Contracts
-1 Astronomical Unit of Space-Time in the Pu'Shing Bhu'tons 'Verse
+1 Astronomical Unit of Space-Time in the Pu'Shing Bhu'tons 'Verse<br />
 [92,955,807 tPBV](https://etherscan.io/token/0x4877d13ac6ccaa947b74792b9bd46afc5e00e8eb)
 
 ### What are Stars good for?
@@ -38,4 +38,13 @@ In addition to giving CryptoKitties access to the Kitty Vortex, cat superpowers 
 ### Kitty Vortex in Pandemic Patch on AskCo19 Island
 The Zeemz game was always meant to have a CryptoKitties portal (the Kitty Vortex) powered by the Zeemz Stars (zStars). This also means that we can back some of the ASK & ZMZ tokens with CryptoKitties or Wrapped CryptoKitties. A doctor can set the quest and then choose a CryptoKitty as the end quest reward. 
 
-NOTE: The Flow team and CryptoKitties community is awesome and receptive to helping out with questions about the smart contracts, JS SDKs, or anything else to bring the AskCo19 Island use case to life. Flow dev is working on Cadence as a resource oriented blockchain language.
+NOTE: The Flow team and CryptoKitties community is awesome and receptive to helping out with questions about the smart contracts, JS SDKs, or anything else to bring the AskCo19 Island use case to life. Flow dev is working on Cadence as a resource oriented blockchain language. 
+
+
+## I Want to Help Build the Kitty Vortex
+Join us
+1. Devpost Hackathons: write zStar contract in Solidity for Ethereum<br />
+https://devpost.com/software/pandemic-patch-augmented-reality-game
+2. OWB Bootcamp: write zStar contract in Cadence for Flow<br />
+
+
