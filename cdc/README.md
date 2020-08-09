@@ -1,6 +1,7 @@
 ## Contracts
 
 zStar = Piece of a Star from the Pu'Shing Bhu'Tons 'Verse (NFT)<br />
+observatoty = Zeemz Star Observatory is a place for Citizen Scientists to find Zeemz Stars (NFT Minter - Discover Stars and Galaxies in the Pu'Shing Bhu'Tons 'Verse)
 collar = CryptoKitty equipment (NFT)<br />
 zCollar = CK equipment, zStar jewel (forged NFTs)<br />
 forge = contract to join item and upgrade (NFT coupler - 2-3 NFTs held in contract, forged NFT minted in exchange)<br />
