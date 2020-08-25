@@ -7,3 +7,8 @@
 //    - recycled items can be used in forge, increased likelihood of forge failure (charity option - don't burn the item, donate it to the drop system for random drops)
 //    - after forging, allow forge again - per item - check item for forge status, if already forged then forge not allowed (in version 2 we can allow multiple forgings); can non-recycled item forgings fail? yeah, of course, at a smaller rate.
 
+// items successfully forged
+//    - item & upgrade resources are held in forge-vault
+//    - qualifiers are burnt/destroyed in forge
+//    - only the forged can be recycled
+
