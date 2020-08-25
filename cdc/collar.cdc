@@ -1,4 +1,5 @@
 // collar.cdc
+//
 // CryptoKitty needs to carry zStar with them (same account) in order to open Kitty Vortex
 // zStar is NFT
 // Collar is resource with empty slot(s) for zStar that requires forging (zcollar + zstar)
@@ -15,10 +16,10 @@
 
 // CODE BELOW THIS LINE IS copypasta from FLOW DOCS. Needs to be adjusted for collar.cdc functions
 
-// collar.cdc
+// KittyVerse.cdc
 //
-// The collar contract defines two types of NFTs.
-// One is a zCollar, which represents a special hat, and
+// The KittyVerse contract defines two types of NFTs.
+// One is a KittyHat, which represents a special hat, and
 // the second is the Kitty resource, which can own Kitty Hats.
 //
 // You can put the hats on the cats and then call a hat function
