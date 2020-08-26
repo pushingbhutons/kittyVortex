@@ -1,4 +1,4 @@
-# My Dapp
+# My Dapp -- DappStarter Bootstrap
 
 This project is for the blockchain application My Dapp. It contains code for the Smart Contract, web-based dapp and NodeJS server.
 
