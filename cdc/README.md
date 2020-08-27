@@ -1,14 +1,16 @@
 ## Contracts
 
+zChest = mystery box could contain a collar, zCollar, zStar, or zVirus<br />
+zVirus = unknown virus that depeletes CK health<br />
 zStar = Piece of a Star from the Pu'Shing Bhu'Tons 'Verse (NFT)<br />
-observatory = Zeemz Star Observatory is a place for Citizen Scientists to find Zeemz Stars (NFT Minter - Discover Stars and Galaxies in the Pu'Shing Bhu'Tons 'Verse)<br />
+
 collar = CryptoKitty equipment (NFT)<br />
 zCollar = CK equipment with zStar jewel (forged NFTs)<br />
+
 forge = contract to join item and upgrade (NFT coupler - 2-3 NFTs held in contract (forge-vault), forged NFT is minted and exchanged)<br />
 forge-vault = contract that holds pieces of zCollars (accessed through the recycler)<br />
 recycler = contract to unjoin item and upgrade (NFT decoupler - 2-3 NFTs removed from forge-vault contract, forged NFT burned and pieces returned to original contract)<br />
-zChest = mystery box could contain a collar, zCollar, zStar, or zVirus<br />
-zVirus = unknown virus that depeletes CK health<br />
+observatory = Zeemz Star Observatory is a place for Citizen Scientists to find Zeemz Stars (NFT Minter - Discover Stars and Galaxies in the Pu'Shing Bhu'Tons 'Verse)<br />
 
 ## Functions in contract and on site
 
