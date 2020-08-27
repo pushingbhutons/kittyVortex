@@ -10,5 +10,10 @@
 // items successfully forged
 //    - item & upgrade resources are held in forge-vault
 //    - qualifiers are burnt/destroyed in forge
-//    - only the forged can be recycled
+//    - only items in forge-vault can be recycled
+//    - no qualifiers can be recovered during the recycling process
 
+// forge-vault
+//    - storage to hold the pieces used in the forge
+//    - only calls from recycler can release items held in the forge-vault
+//    - recycled items will have reduced boosts and/or bonuses, higher likelihood of failing in battle games
