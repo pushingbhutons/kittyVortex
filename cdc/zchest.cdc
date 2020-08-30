@@ -18,6 +18,13 @@
 //   - Gift = transfer the treasure chest
 //   - Buy = purchase the treasure chest
 //   - Sell = sell the treasure chest
+
+// Types of treasure chests
+//    - common - red dwarf stars, influenza, campylobacter
+//    - rare - 
+//    - epic -
+//    - legendary -
+//    - mythic -
 // END NOTES
 
 
