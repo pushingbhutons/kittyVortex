@@ -45,7 +45,44 @@
 
 // 3. mint zCollar, lock collar and zStar to forge-vault
 //    a. zCollar is minted
-//    b. collar and zStar are locked in forge-vault
-//    c. zCollar is sent to user's account
+//    b. zCollar is sent to user's account
 
-//    PUT CODE HERE
+    // zCollar Minter
+    //
+    // Resource that would be owned by an admin or by a smart contract 
+    // that allows them to mint new zCollar NFTs when needed
+    pub resource zCollarMinter {
+
+        // the ID that is used to mint zCollar NFTs
+        // it is only incremented so that NFT ids remain
+        // unique. It also keeps track of the total number of NFTs
+        // in existence.
+        pub var idCount: UInt64
+
+        init() {
+            self.idCount = 1
+        }
+
+        // mintzCollar 
+        //
+        // Function that mints a new zCollar NFT with a new ID
+        // and deposits it in the recipients collection 
+        // using their collection reference
+        pub fun mintzCollar(recipient: &AnyResource{zCollarReceiver}) {
+
+            // create a new zCollar NFT
+            var newzCollar <- create zCollar(initID: self.idCount)
+            
+            // deposit it in the recipient's account using their reference
+            recipient.deposit(token: <-newzCollar)
+
+            // change the id so that each ID is unique
+            self.idCount = self.idCount + UInt64(1)
+        }
+    }
+
+	init() {
+        // store a minter resource in account storage
+        self.account.save(<-create zCollarMinter(), to: /storage/zCollarMinter)
+	}
+}
