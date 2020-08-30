@@ -1,12 +1,14 @@
-## Contracts
-
+## Cadence Smart Contracts on FLOW
+#### Build 1 - WIP
 zChest = mystery box could contain a collar, zCollar, zStar, or zVirus<br />
 zVirus = unknown virus that depeletes CK health<br />
 zStar = Piece of a Star from the Pu'Shing Bhu'Tons 'Verse (NFT)<br />
 
+#### Build 2 - TBD
 collar = CryptoKitty equipment (NFT)<br />
 zCollar = CK equipment with zStar jewel (forged NFTs)<br />
 
+#### Build 3 - TBD
 forge = contract to join item and upgrade (NFT coupler - 2-3 NFTs held in contract (forge-vault), forged NFT is minted and exchanged)<br />
 forge-vault = contract that holds pieces of zCollars (accessed through the recycler)<br />
 recycler = contract to unjoin item and upgrade (NFT decoupler - 2-3 NFTs removed from forge-vault contract, forged NFT burned and pieces returned to original contract)<br />
