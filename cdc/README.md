@@ -3,12 +3,11 @@
 zChest = mystery box could contain a collar, zCollar, zStar, or zVirus<br />
 zVirus = unknown virus that depeletes CK health<br />
 zStar = Piece of a Star from the Pu'Shing Bhu'Tons 'Verse (NFT)<br />
+zCollar = CK equipment with zStar jewel (forged NFTs)<br />
+
 
 #### Build 2 - TBD
 collar = CryptoKitty equipment (NFT)<br />
-zCollar = CK equipment with zStar jewel (forged NFTs)<br />
-
-#### Build 3 - TBD
 forge = contract to join item and upgrade (NFT coupler - 2-3 NFTs held in contract (forge-vault), forged NFT is minted and exchanged)<br />
 forge-vault = contract that holds pieces of zCollars (accessed through the recycler)<br />
 recycler = contract to unjoin item and upgrade (NFT decoupler - 2-3 NFTs removed from forge-vault contract, forged NFT burned and pieces returned to original contract)<br />
@@ -16,7 +15,7 @@ observatory = Zeemz Star Observatory is a place for Citizen Scientists to find Z
 
 ## Functions in contract and on site
 
-- [ ] User calls the game contract (zCollar/zChest/forge/recycler) by clicking open a Treasure Chest
+- [ ] User calls the game contract (zChest.cdc) by clicking open a Treasure Chest
 - [ ] game contract checks user balances (stars, collars, viruses), if no balance, return "item can't be {{ equipped/forged/opened/recycled }}" 
 - [ ] if balances, return "Item is ready. Are you?" (Continue/Return buttons)
 - [ ] item owner address chooses two items for The Forge (NFT Coupler) to join together (collar+zstar=zcollar) or for The Recycler (NFT Decoupler) to disassemble (zcollar-zstar=collar(damaged), zstar(depleted))
