@@ -32,3 +32,7 @@ In the AI Hospital, verified physicians work with real people to gather patient 
 
 ### OWB Bootcamp Info
 We're team #15. For technical track, please start an issue with the name of the contract you'd like to work on. For product track, please start an issue with the idea you'd like to work on. Join us on Discord: https://discord.gg/ArsqePW
+
+NOTE:
+The Cadence docs advise
+> fun panic(_ message: String): Never
